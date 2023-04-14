@@ -1,0 +1,9 @@
+{
+    "server":"119.8.116.203",
+    "server_port":7001,
+    "local_address":"127.0.0.1",
+    "local_port":1081,
+    "password":"123456",
+    "timeout":300,
+    "method":"aes-256-gcm"
+}

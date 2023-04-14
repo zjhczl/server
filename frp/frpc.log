@@ -1,0 +1,7 @@
+2023/04/14 13:37:28 [1;34m[I] [service.go:301] [ef8aba724bc4c144] login to server success, get run id [ef8aba724bc4c144], server udp port [0][0m
+2023/04/14 13:37:28 [1;34m[I] [proxy_manager.go:144] [ef8aba724bc4c144] proxy added: [api apiweb mqtt zjnomachinex monio2][0m
+2023/04/14 13:37:28 [1;34m[I] [control.go:180] [ef8aba724bc4c144] [zjnomachinex] start proxy success[0m
+2023/04/14 13:37:28 [1;34m[I] [control.go:180] [ef8aba724bc4c144] [api] start proxy success[0m
+2023/04/14 13:37:28 [1;34m[I] [control.go:180] [ef8aba724bc4c144] [apiweb] start proxy success[0m
+2023/04/14 13:37:28 [1;34m[I] [control.go:180] [ef8aba724bc4c144] [monio2] start proxy success[0m
+2023/04/14 13:37:28 [1;34m[I] [control.go:180] [ef8aba724bc4c144] [mqtt] start proxy success[0m
