@@ -23,5 +23,6 @@ def setDomainIp(ip):
         r=requests.post(url=url,data=body)
         #输出返回
         print(r.text)
-print(getIp())
-setDomainIp("119.8.116.203")
+ip = getIp()
+setDomainIp(ip)
+print("设置ip为:"+str(ip))
