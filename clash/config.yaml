@@ -1,0 +1,28 @@
+proxies:
+  - {name: zj,type: socks5,server: 127.0.0.1,port: 1081}
+  - {name: 🇸🇬 14|🇸🇬 新加坡B|@ripaojiedian, server: gzcm01.celerlink.one, port: 41009, type: ss, cipher: chacha20-ietf-poly1305, password: 3525588ee14ea924}
+  - {name: chat, server: 37.1.208.43, port: 7001, type: ss, cipher: aes-256-gcm, password: 88342dfsd34}
+proxy-groups:
+  - name: Proxy
+    type: select
+    proxies:
+      - zj
+  - name: Proxy2
+    type: select
+    proxies:
+      - 🇸🇬 14|🇸🇬 新加坡B|@ripaojiedian
+  - name: Proxy4
+    type: select
+    proxies:
+      - chat
+  
+dns:
+  enable: true
+  enhanced-mode: fake-ip
+  nameserver:
+    - 114.114.114.114 # 真实请求DNS，可多设置几个
+tun:
+  enable: true
+  stack: system # 或 gvisor
+  dns-hijack:
+    - 1.0.0.1:53 # 请勿更改
