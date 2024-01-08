@@ -26,3 +26,6 @@ tun:
   stack: system # 或 gvisor
   dns-hijack:
     - 1.0.0.1:53 # 请勿更改
+rules:
+  - "GEOIP,CN,DIRECT"
+  - "MATCH,Proxy4"
