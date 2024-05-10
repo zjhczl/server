@@ -24,6 +24,13 @@ tun:
     - 1.0.0.1:53 # 请勿更改
 rules:
   - GEOIP,CN,DIRECT
-  - DOMAIN-SUFFIX,openai.com,PoxyChat
-  - DOMAIN,c.zjhczl.xyz,PoxyChat
+  - DOMAIN,breton.top,DIRECT
+  - DOMAIN-SUFFIX,breton.top,DIRECT
+  - DOMAIN,openai.com,ProxyChat
+  - DOMAIN-SUFFIX,openai.com,ProxyChat
+  - DOMAIN,chatgpt.com,ProxyChat
+  - DOMAIN-SUFFIX,chatgpt.com,ProxyChat
+  - DOMAIN,c.zjhczl.xyz,ProxyChat
+  - DOMAIN,github.com,Proxy
+  - DOMAIN-SUFFIX,github.com,Proxy
   - MATCH,Proxy
