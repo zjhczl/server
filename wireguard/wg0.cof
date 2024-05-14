@@ -1,0 +1,11 @@
+[Interface]
+PrivateKey = OFAjBH8U/y4S1Hu846EKQ94oikbTm62dxTtW/E37+m0=
+Address = 192.168.10.5/32
+DNS = 114.114.114.114
+
+[Peer]
+PublicKey = Ok1aWYgnP8tp9ErX5nslKayi8vQM74GOfSl3uPykqR4=
+Endpoint = 112.6.170.135:9001
+AllowedIPs = 192.168.10.0/24
+PersistentKeepalive = 25
+
