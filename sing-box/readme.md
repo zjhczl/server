@@ -3,6 +3,9 @@
 
 ## 安装sing-box
 https://github.com/SagerNet/sing-box/releases/tag/v1.9.0
+```
+wget -Lj0 https://github.com/SagerNet/sing-box/releases/download/v1.9.0/sing-box-1.9.0-linux-amd64.tar.gz
+```
 
 ## 配置文件路径
 /etc/sing-box/config.json   
