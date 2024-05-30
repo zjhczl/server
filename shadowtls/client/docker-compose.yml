@@ -1,0 +1,13 @@
+version: '2.4'
+services:
+  shadow-tls:
+    image: ghcr.io/ihciah/shadow-tls:latest
+    restart: always
+    network_mode: "host"
+    environment:
+      - MODE=client
+      - LISTEN=0.0.0.0:3443
+      - SERVER=server_ip:28443
+      # - TLS=cloud.tencent.com
+      - TLS=www.baidu.com
+      - PASSWORD=CHANGE_IT

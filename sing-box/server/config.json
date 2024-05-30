@@ -8,7 +8,8 @@
             "version": 3,
             "users": [
                 {
-                    "password": ""
+                    "name":"usr",
+                    "password": "123456"
                 }
             ],
             "handshake": {
@@ -22,7 +23,7 @@
             "tag": "shadowsocks-in",
             "listen": "127.0.0.1",
             "method": "2022-blake3-aes-128-gcm",
-            "password": "123456", // 执行 sing-box generate rand 16 --base64 生成
+            "password": "Cbod3szsdDJi4vbIELp86A==", // 执行 sing-box generate rand 16 --base64 生成
             "multiplex": {
                 "enabled": true
             }
